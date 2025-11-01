@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test: Audio and Video</title>
+</head>
+<body>
+    <h1>Test: Audio and Video</h1>
+
+    <!-- Task 1: Basic Audio Embed -->
+    <section>
+        <h2>Task 1: Basic Audio Embed</h2>
+        <h3>Basic audio embed</h3>
+        <audio controls>
+            <source src="https://github.com/mdn/learning-area/raw/refs/heads/main/html/multimedia-and-embedding/tasks/media-embed/media/audio.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <hr>
+
+    <!-- Task 2: Video Embed -->
+    <section>
+        <h2>Task 2: Video Embed</h2>
+        <h3>Video embed</h3>
+        <video controls width="320" height="240" muted>
+            <source src="https://github.com/mdn/learning-area/raw/refs/heads/main/html/multimedia-and-embedding/tasks/media-embed/media/video.mp4" type="video/mp4">
+            <source src="https://github.com/mdn/learning-area/raw/refs/heads/main/html/multimedia-and-embedding/tasks/media-embed/media/video.webm" type="video/webm">
+            <track src="https://raw.githubusercontent.com/mdn/learning-area/main/html/multimedia-and-embedding/tasks/media-embed/media/subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+            Your browser does not support the video element.
+        </video>
+    </section>
+
+    <hr>
+    <p><a href="index.html">Back to Home</a></p>
+</body>
+</html>
